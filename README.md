@@ -11,6 +11,7 @@ gitbash 支持窗口内鼠标右键菜单 open copy paste selectall
 ![gitbash](http://note.youdao.com/yws/res/6501/WEBRESOURCE28d44636341c5efaf23f2ea972f630e8)
 ![gitbash](http://note.youdao.com/yws/res/6503/WEBRESOURCE56e6bf2a694a44e2df0a239297f60da5)
 
+
 **附上2.7.2下载地址**
 [v-2.7.2](https://github.com/git-for-windows/git/releases/tag/v2.7.2.windows.1)
 
@@ -19,7 +20,5 @@ gitbash 支持窗口内鼠标右键菜单 open copy paste selectall
 
 ```
 authors : woterWang (woter_wang@live.com)
-date : 2017-03-30 10:42:01
-
-
+date : 2017-03-30 10:42
 ```
