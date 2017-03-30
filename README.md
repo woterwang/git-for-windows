@@ -6,13 +6,13 @@
 * 命令窗口内支持鼠标右键菜单最适应windows coder的习惯；
 * git-for-windows (v-2.7.2 64bit) 就支持上述 而且还有更多的选项配置(窗口透明度、复制/粘贴、字体缩放、全屏切换)；
 
-![git-for-windows](https://github.com/woterwang/git-for-windows/img/menu.png)
-![git-for-windows](https://github.com/woterwang/git-for-windows/img/2.png)
-![git-for-windows](http://github.com/woterwang/git-for-windows/img/3.png)
-![git-for-windows](http://github.com/woterwang/git-for-windows/img/4.png)
-![git-for-windows](http://github.com/woterwang/git-for-windows/img/5.png)
-![git-for-windows](http://github.com/woterwang/git-for-windows/img/6.png)
-![git-for-windows](http://github.com/woterwang/git-for-windows/img/7.png)
+![git-for-windows](https://github.com/woterwang/git-for-windows/raw/master/img/menu.png)
+![git-for-windows](https://github.com/woterwang/git-for-windows/raw/master/img/2.png)
+![git-for-windows](http://github.com/woterwang/git-for-windows/raw/master/img/3.png)
+![git-for-windows](http://github.com/woterwang/git-for-windows/raw/master/img/4.png)
+![git-for-windows](http://github.com/woterwang/git-for-windows/raw/master/img/5.png)
+![git-for-windows](http://github.com/woterwang/git-for-windows/raw/master/img/6.png)
+![git-for-windows](http://github.com/woterwang/git-for-windows/raw/master/img/7.png)
 
 
 **附上2.7.2下载地址**
