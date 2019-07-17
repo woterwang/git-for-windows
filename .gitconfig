@@ -1,0 +1,24 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	email = woter_live@live.com
+	name = WRG
+[core]
+	autocrlf = true
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[credential]
+	helper = store
+[alias]
+	logtree = log --oneline --decorate --graph --all
+	cm = commit
+	s = status
+	c = checkout
+	b = branch
+	lm = log --decorate --graph --all --color --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%C(yellow) %s %Cgreen(%cd) %C(bold blue)<%an>%Creset'
+	report = archive -o ./lastCommit.zip HEAD
