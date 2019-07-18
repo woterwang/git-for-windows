@@ -7,10 +7,18 @@
 	name = WRG
 [core]
 	autocrlf = true
-[difftool "sourcetree"]
-	cmd = '' \"$LOCAL\" \"$REMOTE\"
-[mergetool "sourcetree"]
-	cmd = "'' "
+#[difftool "sourcetree"]
+	#cmd = '' \"$LOCAL\" \"$REMOTE\"
+#[mergetool "sourcetree"]
+	#cmd = "'' "
+	#trustExitCode = true
+[difftool "winmerge"]
+	#cmd = "C:\\Program Files (x86)\\WinMerge\\WinMergeU.exe"
+	path = "C:\\Program Files (x86)\\WinMerge\\WinMergeU.exe"
+	trustExitCode = true
+[mergetool "winmerge"]
+	path = "C:\\Program Files (x86)\\WinMerge\\WinMergeU.exe"
+	# path = "C:\\Program Files (x86)\\Beyond Compare 4\\BCompare.exe"
 	trustExitCode = true
 [credential]
 	helper = store
@@ -22,3 +30,8 @@
 	b = branch
 	lm = log --decorate --graph --all --color --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:'%Cred%h%Creset -%C(yellow)%d%C(yellow) %s %Cgreen(%cd) %C(bold blue)<%an>%Creset'
 	report = archive -o ./lastCommit.zip HEAD
+[diff]
+	tool = winmerge
+[merge]
+	tool = winmerge
+
